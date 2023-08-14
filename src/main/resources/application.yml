@@ -1,2 +1,11 @@
 Server:
   port: 8901
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: ProductService
